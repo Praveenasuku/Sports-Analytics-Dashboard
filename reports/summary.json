@@ -1,0 +1,131 @@
+{
+  "forecast_scores": {
+    "games": 63157,
+    "brier_elo": 0.2038,
+    "brier_coin_flip": 0.25,
+    "brier_home_rate": 0.235,
+    "brier_skill_vs_home_rate": 0.1328,
+    "log_loss_elo": 0.5931,
+    "favourite_win_rate": 0.681
+  },
+  "recalibration_test": {
+    "test_games": 20546,
+    "brier_elo": 0.2077,
+    "brier_recalibrated": 0.2083,
+    "home_advantage_elo_points": 54.9
+  },
+  "home_advantage": {
+    "1940": 0.602,
+    "1950": 0.654,
+    "1960": 0.593,
+    "1970": 0.635,
+    "1980": 0.649,
+    "1990": 0.615,
+    "2000": 0.605,
+    "2010": 0.592
+  },
+  "peak_teams": [
+    {
+      "season": 1996,
+      "fran_id": "Bulls",
+      "peak_elo": 1853.1
+    },
+    {
+      "season": 2015,
+      "fran_id": "Warriors",
+      "peak_elo": 1822.3
+    },
+    {
+      "season": 1986,
+      "fran_id": "Celtics",
+      "peak_elo": 1815.7
+    },
+    {
+      "season": 1997,
+      "fran_id": "Bulls",
+      "peak_elo": 1811.3
+    },
+    {
+      "season": 2009,
+      "fran_id": "Lakers",
+      "peak_elo": 1790.0
+    },
+    {
+      "season": 1998,
+      "fran_id": "Bulls",
+      "peak_elo": 1788.3
+    },
+    {
+      "season": 1989,
+      "fran_id": "Pistons",
+      "peak_elo": 1788.1
+    },
+    {
+      "season": 1991,
+      "fran_id": "Bulls",
+      "peak_elo": 1785.2
+    },
+    {
+      "season": 1992,
+      "fran_id": "Bulls",
+      "peak_elo": 1782.1
+    },
+    {
+      "season": 2010,
+      "fran_id": "Magic",
+      "peak_elo": 1781.8
+    }
+  ],
+  "biggest_upsets": [
+    {
+      "date": "1993-04-24",
+      "season": 1993,
+      "fran_id": "Mavericks",
+      "opp_fran": "Rockets",
+      "pts": 128,
+      "opp_pts": 123,
+      "forecast": 0.027,
+      "is_playoffs": 0
+    },
+    {
+      "date": "1993-04-06",
+      "season": 1993,
+      "fran_id": "Mavericks",
+      "opp_fran": "Thunder",
+      "pts": 109,
+      "opp_pts": 107,
+      "forecast": 0.028,
+      "is_playoffs": 0
+    },
+    {
+      "date": "1992-03-21",
+      "season": 1992,
+      "fran_id": "Magic",
+      "opp_fran": "Bulls",
+      "pts": 111,
+      "opp_pts": 108,
+      "forecast": 0.032,
+      "is_playoffs": 0
+    },
+    {
+      "date": "1990-03-21",
+      "season": 1990,
+      "fran_id": "Pelicans",
+      "opp_fran": "Suns",
+      "pts": 115,
+      "opp_pts": 114,
+      "forecast": 0.042,
+      "is_playoffs": 0
+    },
+    {
+      "date": "1972-02-22",
+      "season": 1972,
+      "fran_id": "Pistons",
+      "opp_fran": "Lakers",
+      "pts": 135,
+      "opp_pts": 134,
+      "forecast": 0.043,
+      "is_playoffs": 0
+    }
+  ]
+}
